@@ -41,7 +41,7 @@ class Landing extends Component {
           </a>
 
           {/* Download Curriculo */}
-          <a href="/Curricullo-Mari.docx" download="Curriculo-mariana" rel="noopener noreferrer" target="_blank">
+          <a href="/CVThiagoAlbertino.docx" download="CVThiagoAlbertino.docx" rel="noopener noreferrer" target="_blank">
             <i className="fa fa-download" aria-hidden="true" />
           </a>
 
