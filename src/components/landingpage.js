@@ -9,7 +9,7 @@ class Landing extends Component {
         <Grid className="landing-grid">
           <Cell col={12}>
             <img
-              src="https://scontent.fbfh3-1.fna.fbcdn.net/v/t1.0-9/1669_1677467272535718_7248961668915560225_n.jpg?_nc_cat=101&_nc_ht=scontent.fbfh3-1.fna&oh=70918c904664d9ba8200bba2fcbfa5de&oe=5C86737F"
+              src="https://avatars2.githubusercontent.com/u/31054861?s=400&u=d717c90ed8eaed1180de7a55639c3a5a2e7bb127&v=4"
               alt="avatar"
               className="avatar-img"
               style={{padding:'30px',borderRadius:'50%', width:'400px', height:'400px'}}
@@ -17,21 +17,21 @@ class Landing extends Component {
               />
 
             <div className="banner-text">
-              <h1>Engenheria de Software</h1>
+              <h1>Thiago Albertino Assis</h1>
 
-            <hr/>
 
-          <p>HTML5/CSS3 | JavaScript | Java | C++ </p>
+          <p>22 anos, estudante de Análise e Desenvolvimento de Sistemas, na <a href="http://portal.utfpr.edu.br/" 
+          target="_blank">UTFPR</a> Campus Cornélio Procópio e também desenvolvedor Front-End na empresa incubada CompileAgro.</p>
 
         <div className="social-links">
 
           {/* LinkedIn */}
-          <a href="http://linkedin.com/marianafelicio" rel="noopener noreferrer" target="_blank">
+          <a href="https://www.linkedin.com/in/thiago-albertino-assis-097693158/" rel="noopener noreferrer" target="_blank">
             <i className="fa fa-linkedin-square" aria-hidden="true" />
           </a>
 
           {/* Github */}
-          <a href="http://github.com/marianafelicio" rel="noopener noreferrer" target="_blank">
+          <a href="http://github.com/thiagoalbertino" rel="noopener noreferrer" target="_blank">
             <i className="fa fa-github-square" aria-hidden="true" />
           </a>
 

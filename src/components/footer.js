@@ -8,20 +8,20 @@ class FooterE extends Component{
             <FooterSection type="middle">
                 <FooterDropDownSection title="Pessoal">
                     <FooterLinkList>
-                        <a href="/">About</a>
+                        <a href="/resume">About</a>
                         <a href="/">Terms</a>
                         <a href="/">Partners</a>
                         <a href="/">Updates</a>
                     </FooterLinkList>
                 </FooterDropDownSection>
-                <FooterDropDownSection title="Detailhes">
+                <FooterDropDownSection title="Detalhes">
                     <FooterLinkList>
                         <a href="/">Specs</a>
                         <a href="/">Tools</a>
                         <a href="/">Resources</a>
                     </FooterLinkList>
                 </FooterDropDownSection>
-                <FooterDropDownSection title="Technologias">
+                <FooterDropDownSection title="Tecnologias">
                     <FooterLinkList>
                         <a href="/">How it works</a>
                         <a href="/">Patterns</a>
@@ -34,16 +34,13 @@ class FooterE extends Component{
                     <FooterLinkList>
                         <a href="/">Sugestões</a>
                         <a href="/">Perguntas</a>
-                        <a href="/">Contact Me</a>
+                        <a href="/contact">Contate Me</a>
                     </FooterLinkList>
                 </FooterDropDownSection>
             </FooterSection>
-            <FooterSection type="bottom" logo="Title">
-                <FooterLinkList>
-                    <a href="/">Ajuda</a>
-                    <a href="/" style={{marginLeft:"1050px"}}>Todos os direitos reservados ™</a>
-                </FooterLinkList>
-            </FooterSection>
+            
+                    
+            
         </Footer>
         
 

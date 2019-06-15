@@ -13,25 +13,30 @@ class Resume extends Component {
           <Cell col={4}>
             <div style={{textAlign: 'center'}}>
               <img
-                src="https://scontent.fbfh3-1.fna.fbcdn.net/v/t1.0-9/1982007_1379107012371747_980572919147501363_n.jpg?_nc_cat=100&_nc_ht=scontent.fbfh3-1.fna&oh=babe15516f30b8bd231b39ebce4b6667&oe=5C890687"
+                src="https://avatars2.githubusercontent.com/u/31054861?s=400&u=d717c90ed8eaed1180de7a55639c3a5a2e7bb127&v=4"
                 alt="avatar"
-                style={{height: '300px'}}
+                style={{height: '300px', borderRadius: 200}}
                  />
             </div>
 
-            <h2 style={{paddingTop: '2em'}}>Mariana Felício</h2>
-            <h4 style={{color: 'grey'}}>Objetivo</h4>
+            <h2 style={{paddingTop: '2em'}}>Thiago Albertino Assis</h2>
+            <h4 style={{color: 'grey'}}>Sobre</h4>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-            <p>Desejo fazer parte do time da empresa oferecendo o melhor. Sou uma pessoa muito dedicada e comprometida com as atribuições que são dadas a mim. </p>
+            <p style={{textAlign: 'justify'}}>
+                Nascido e crescido na cidade de Praia Grande, São Paulo, Brasil em 1997. Desde criança sempre fui muito 
+                interessado na área de tecnologia, mas meu primeiro contato com programação foi apenas em 2015, em uma 
+                disciplina no curso de Engenharia Mecânica, e esse foi o motivo para eu trocar de curso e começar a fazer 
+                Análise e Desenvolvimento de Sistemas.</p>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
             <h5>Endereço</h5>
-            <p>Avenida 14 de Dezembro, 758</p>
+            <p>Cornélio Procópio, Paraná, Brasil</p>
+            <p>Rua: Carlos Gomes</p>
             <h5>Telefone</h5>
-            <p>(43) 9 9904 4481</p>
+            <p>(13) 9 99788 3843</p>
             <h5>Email</h5>
-            <p>marifelicio_mf@hotmail.com</p>
+            <p>thiago.1997@alunos.utfpr.edu.br</p>
             <h5>Web</h5>
-            <p>marifeliciof.com</p>
+            <p><a href="https://thiagoalbertino.github.io/personal/" target="_blank">thiagoalbertino.github.io/personal/</a></p>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
           </Cell>
           <Cell className="resume-right-col" col={8}>
@@ -39,59 +44,73 @@ class Resume extends Component {
 
 
             <Education
-              startYear={2015}
+              startYear={2016}
               endYear={2019}
-              schoolName="Universidade Tecnológica Federal do Paraná"
-              schoolDescription="Bacharelado em Engenharia de Software"
+              schoolName="Universidade Tecnológica Federal do Paraná (UTFPR)"
+              schoolDescription="Análise e Desenvolvimento de Sistemas"
                />
 
             <Education
-                 startYear={2007}
-                 endYear={2009}
-                 schoolName=" Colégio Agricola Fernado Costa"
-                 schoolDescription="Técnico Agricola"
+                 startYear={2015}
+                 endYear={2015}
+                 schoolName="Faculdade de Tecnologia do Estado de São Paulo (FATEC)"
+                 schoolDescription="Análise e Desenvolvimento de Sistemas"
                   />
 
+                <Education
+                 startYear={2015}
+                 endYear={2015}
+                 schoolName="ESAMC Santos"
+                 schoolDescription="Engenharia Mecânica"
+                  />  
+
             <Education
-                 startYear={2007}
-                 endYear={2009}
-                 schoolName=" Colégio Castro Alves"
-                 schoolDescription="Técnico em Vendas"
+                 startYear={2013}
+                 endYear={2014}
+                 schoolName="Serviço Nacional de Aprendizagem Industrial (SENAI)"
+                 schoolDescription="Mecânica de Manutenção"
                   />
             <Education
-                 startYear={2007}
-                 endYear={2009}
-                 schoolName=" Senai"
-                 schoolDescription="Técnico em Manutenção Industrial"
+                 startYear={2013}
+                 endYear={2014}
+                 schoolName="Wizard"
+                 schoolDescription="Curso de Inglês"
+                  /> 
+
+              <Education
+                 startYear={2012}
+                 endYear={2014}
+                 schoolName="Escola Estadual Professora Magali Alonso"
+                 schoolDescription="Ensino Médio"
                   />
+
+                <Education
+                 startYear={2007}
+                 endYear={2008}
+                 schoolName="Universidade Santa Cecília - Santos"
+                 schoolDescription="Curso de Inglês"
+                  />
+
             <hr style={{borderTop: '3px solid #e22947'}} />
             
             <h2>Experiência</h2>
 
             <Experience
-              startYear={2009}
-              endYear={2012}
-              jobName="Auxiliar Administrativo"
-              jobDescription="fabrica de bolsas positivo.
-              Faturamento de notas fiscais e telefonista."
+              startYear={2013}
+              endYear={2013}
+              jobName="Jovem Aprendiz - Modec Serviços de Petróleo do Brasil Ltda"
+              jobDescription="Elaboração de relatórios referentes à atividades realizadas no curso de Mecânica de Manutênção no SENAI Santos."
               />
 
-              <Experience
-                startYear={2012}
-                endYear={2016}
-                jobName="PPCP"
-                jobDescription="CATUAI ROTULOS.
-                Planejamento e controle de produção de toda a fábrica."
-                />
               <hr style={{borderTop: '3px solid #e22947'}} />
               <h2>Skills</h2>
               <Skills 
-                skill="html5"
-                progress={50}
+                skill="HTML5"
+                progress={60}
               />
               <Skills
-                skill="javascript"
-                progress={20}
+                skill="JavaScript"
+                progress={50}
                 />
                 <Skills
                   skill="Java"
@@ -99,15 +118,15 @@ class Resume extends Component {
                   />
                     <Skills
                       skill="React"
-                      progress={10}
+                      progress={40}
                       />
                       <Skills
                       skill="C++"
-                      progress={30}
+                      progress={60}
                       />
                       <Skills
                       skill="Inglês"
-                      progress={50}
+                      progress={60}
                       />
 
 

@@ -15,13 +15,17 @@ class Projects extends Component {
         <div className="projects-grid">
           {/* Project 1 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #1</CardTitle>
+            <CardTitle style={{color: '#fff', height: '220px', background: 'url(https://github.com/ThiagoAlbertino/PortifolioCompile/blob/master/feston.png?raw=true) center / cover'}} >Fest.On</CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+              Este projeto foi desenvolvido por mim e mais um colega para as disciplinas de Programação Web e 
+              Oficina de Integração, no curso de Análise e Desenvolvimento de Sistemas da UTFPR.
+              
+              Se trata de uma plataforma de venda de ingressos para eventos
+              
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
+              <Button href="https://github.com/FestOn-UTFPR/an34e-project" target="_black" colored>GitHub</Button>
+              
               <Button colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
@@ -31,13 +35,15 @@ class Projects extends Component {
 
           {/* Project 2 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #2</CardTitle>
+            <CardTitle style={{color: '#fff', height: '220px', background: 'url(https://github.com/ThiagoAlbertino/PortifolioCompile/blob/master/4l.png?raw=true) center / cover'}} >Projeto ForLogic</CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+              Este foi um projeto que fiz para um processo seletivo da empresa ForLogic, esse projeto 
+              consiste em uma plataforma onde os clientes da empresa possam dar feedbacks sobre os softwares 
+              desenvolvidos para eles.
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
+              <Button href="https://github.com/ThiagoAlbertino/4Dev-App" target="_blank" colored>GitHub</Button>
+              
               <Button colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
@@ -47,14 +53,14 @@ class Projects extends Component {
 
           {/* Project 3 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >React Project #3</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://github.com/ThiagoAlbertino/PortifolioCompile/blob/master/port.png?raw=true) center / cover'}} >Portifolio</CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+              Portifólio pessoal desenvolvido com HTML, CSS, JavaSript e Canvas
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+              <Button href="https://github.com/ThiagoAlbertino/ThiagoAlbertino.github.io/tree/master/personal" target="_blank" colored>GitHub</Button>
+              
+              <Button href="https://thiagoalbertino.github.io/personal/" target="_blank" colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />

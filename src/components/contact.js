@@ -8,26 +8,25 @@ class Contact extends Component {
       <div className="contact-body" style={{marginBottom:'20px'}}>
         <Grid className="contact-grid">
           <Cell col={6}>
-            <h2>Mariana Felício</h2>
+            <h2>Thiago Albertino Assis</h2>
             <img
-              src="https://scontent.fbfh3-1.fna.fbcdn.net/v/t1.0-9/39923961_2201985730083867_7309093151543656448_n.jpg?_nc_cat=105&_nc_ht=scontent.fbfh3-1.fna&oh=e9ca009f8c9837dd1a4f4c56551b85fe&oe=5C4B5D1F"
+              src="https://avatars2.githubusercontent.com/u/31054861?s=400&u=d717c90ed8eaed1180de7a55639c3a5a2e7bb127&v=4"
               alt="avatar"
-              style={{height: '250px', marginLeft: '135px'}}
+              style={{height: '250px', marginLeft: '135px', borderRadius: 200}}
                 />
-             <p style={{ width: '75%', margin: 'auto', paddingTop: '1em', }}>
-             Nasci em 27 de outubro de 1989, na cidade de Nova Fatima Paraná.
-              Moro em Nova Fatima, trabalho na empresa  Catuai Rótulos onde atuo como PPCP (Planejamento, Programação e Controle de Produção).
-              Antes disso trabalhei por um periodo de um ano na Fabrica de Bolsas Positivo, onde era atendente, fazia vendas por telefone e emissão de notas fiscais.
-              Cursei Administração na Unopar Virtual durante 1 ano, mas larguei por ter passado na UTF para cursar Analise de Sistema, onde fiquei durante um semestre, até que abriu o curso de Engenharia de Software, me inscrevi e passei, é o curso que estou fazendo atualmente e onde pretendo seguir carreira.
+              <p style={{ width: '75%', margin: 'auto', paddingTop: '1em', textAlign: 'justify'}}>
+                Quer entrar em contato? É simples, preencha os campos a direita com seu endereço de 
+                e-mail, seu nome completo e por último, a mensagem que quer me enviar. Prometo que
+                responderei assim que possível.
               </p>
 
           </Cell>
           <Cell col={6}>
-            <h2>Contatos</h2>
-            <hr/>
+            <h2>Contato</h2>
+            
             <div className="contact-list" >
                <form
-                    action="https://formspree.io/marifelicio_mf@hotmail.com"
+                    action="https://formspree.io/thiago.1997@alunos.utfpr.edu.br"
                     method="POST"
                     className="row"
                       >
@@ -43,12 +42,12 @@ class Contact extends Component {
                               />
                             </div>
                             <div className="form-group col-md-6">
-                              <label htmlFor="name">Name</label>
+                              <label htmlFor="name">Nome</label>
                               <input name="name" className="form-control" required />
                             </div>
                           </div>
                           <div className="form-group">
-                            <label htmlFor="message">Message</label>
+                            <label htmlFor="message">Mensagem</label>
                             <textarea
                               className="form-control"
                               name="message"

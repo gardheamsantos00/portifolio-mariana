@@ -1,13 +1,13 @@
 .header-color {
   background: #20002c;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #cbb4d4, #20002c);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #cbb4d4, #20002c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to right, #000000, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #000000, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
      }
 
 .landing-grid {
-  background: #FF0099;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #493240, #FF0099);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #493240, #FF0099); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #000000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(-45deg,   #000000, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(-45deg,   #000000, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
    
   text-align: center;
   /*position: fixed; */
@@ -19,14 +19,15 @@
 
 .projects-grid {
   display: flex;
+  text-align: justify;
 }
 
 /* Resume Page css */
 .resume-right-col {
   /*background: #27221F;*/
-  background: #FF0099;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #493240, #FF0099);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #493240, #FF0099); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #000000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(-45deg,   #000000, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(-45deg,   #000000, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
   color: white;
   padding: 2em;
@@ -35,9 +36,9 @@
 /* contact page css */
 
 .contact-body {
-  background: #FF0099;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #493240, #FF0099);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #493240, #FF0099); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #000000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(-45deg,   #000000, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(-45deg,   #000000, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   
   margin: auto;
   /*position: fixed;*/
@@ -55,10 +56,12 @@
   background: white;
   color: black;
   margin-bottom: 20px;
+  border-radius: 1%;
 }
 
 .contact-grid h2 {
   font-family: 'Anton', sans-serif;
+  padding-left: 20px;
 }
 
 .contact-grid p {
@@ -66,11 +69,11 @@
   font-weight: bold;
 }
 
-.contact-grid hr {
+/*.contact-grid hr {
   border-top: 5px dotted black;
   width: 50%;
   margin: auto;
-}
+}*/
 
 .contact-list  {
   
